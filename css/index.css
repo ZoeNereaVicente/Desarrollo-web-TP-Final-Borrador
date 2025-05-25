@@ -1,0 +1,36 @@
+.contenedor{
+    display: flex;
+    height: 100%;
+}
+
+#integrantes, #equipo{
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#integrantes{
+  h2{
+    text-align: center;
+  }
+}
+
+#equipo{
+  text-align: center;
+}
+
+ul.enlaces{
+  width: max-content;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left; 
+}
+
+ul.enlaces li{
+  list-style-type: none;
+  margin-bottom: 8px; 
+}
+
+a:hover{
+  text-decoration: underline;
+}
