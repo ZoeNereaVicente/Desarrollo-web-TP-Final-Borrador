@@ -103,3 +103,26 @@ main{
     color: black;
     text-shadow: none;
 }
+
+@media (max-width: 768px) {
+  #propuesta {
+    width: 95%;
+    padding: 25px 20px;
+    margin-top: 20px;
+  }
+
+  #propuesta h2 {
+    font-size: 20px;
+  }
+
+  #propuesta p,
+  #propuesta li {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.9;
+  }
+
+  #propuesta ul {
+    padding-left: 20px;
+  }
+}
