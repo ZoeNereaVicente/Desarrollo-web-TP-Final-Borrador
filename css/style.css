@@ -54,9 +54,9 @@ a{
 }
 
 img{
-  width: 120px;
-  height: 50px;
-  float: right;
+  
+  max-width: 120px;
+  height: auto;
   margin-right: 1px;
   order: -1;
 }
@@ -85,6 +85,11 @@ header h1 {
     margin: auto;
   }
 
+  nav h1{
+    top: 100px;
+  left: 50px;
+  }
+
   footer {
     text-align: center;
     padding: 15px;
@@ -93,4 +98,8 @@ header h1 {
   body {
     padding: 0 10px;
   }
+
+  img {
+  max-width: 80px;
+}
 }
