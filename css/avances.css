@@ -106,9 +106,8 @@ main{
 
 @media (max-width: 768px) {
   #propuesta {
-    width: 95%;
-    padding: 25px 20px;
-    margin-top: 20px;
+    width: 100%;            
+    padding: 15px 10px; 
   }
 
   #propuesta h2 {
